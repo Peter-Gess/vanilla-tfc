@@ -21,7 +21,6 @@ resource "aws_instance" "ubuntu" {
   ami               = var.ami_id
   instance_type     = var.instance_type
   subnet_id         = data.terraform_remote_state.vm-qa.outputs.subnet_id
-  sensitive         = true
 
   tags = {
     Name    = "pgess-tfe-demo"
