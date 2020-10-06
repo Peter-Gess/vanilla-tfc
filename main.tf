@@ -15,5 +15,5 @@ resource "aws_instance" "ubuntu" {
     owner   = "Peter Gess"
     region  = "Central Enterprise"
     purpose = "TFE Demo"
-    ttl     = "2" 
+    ttl     = "2"  
   }
