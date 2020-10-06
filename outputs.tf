@@ -3,5 +3,6 @@ output "public_dns" {
 }
 
 output "subnet_id" {
-  value = aws_instance.ubuntu.subnet_id
+  value     = aws_instance.ubuntu.subnet_id
+  sensitive = true
 }
