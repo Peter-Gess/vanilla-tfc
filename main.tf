@@ -6,7 +6,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-data "terraform_remote_state" "admin" {
+data "terraform_remote_state" "vm-qa" {
   backend = "remote"
 
   config = {
