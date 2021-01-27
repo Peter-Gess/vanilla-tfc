@@ -17,4 +17,4 @@ resource "aws_instance" "ubuntu" {
     purpose = "TFE Demo"
     ttl     = "2" 
   } 
-}
+} 
