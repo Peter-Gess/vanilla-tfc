@@ -16,5 +16,5 @@ resource "aws_instance" "ubuntu" {
     region  = "Central Enterprise"
     purpose = "TFE Demo"
     ttl     = "2" 
-  }
+  } 
 } 
