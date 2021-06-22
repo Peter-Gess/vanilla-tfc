@@ -11,7 +11,7 @@ resource "aws_instance" "ubuntu" {
   instance_type     = var.instance_type
 
   tags = {
-    Name    = "pgess-tfe-demo"
+    Name    = "pgess-tfc-demo"
     owner   = "Peter Gess"
     region  = "Central Enterprise"
     purpose = "TFE Demo"
