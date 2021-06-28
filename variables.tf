@@ -17,9 +17,3 @@ variable "name" {
   description = "name to pass to Name tag"
   default     = "Provisioned by Terraform for NU"
 }
-
-variable "instances_per_subnet" {
-  description = "Number of EC2 instances in each private subnet"
-  type        = number
-  default     = 2
-}
