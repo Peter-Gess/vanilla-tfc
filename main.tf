@@ -7,7 +7,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "ubuntu" {
-  count             = 0
   ami               = var.ami_id
   instance_type     = var.instance_type
 
